@@ -1,17 +1,18 @@
-import logo from '../../assets/images/logo-light.png'
+import { Link } from "react-router-dom";
+import logo from '../../assets/images/logo-light.png';
 
 export default function Navbar() {
   return (
     <header>
       <div className="container">
         <nav className="navbar">
-          <a href="#">
+          <Link to="/">
             <img
               src={logo}
               alt="SimpleBlog logo"
               width="150"
             />
-          </a>
+          </Link>
 
           <div className="btn-group">
             <button className="theme-btn theme-btn-mobile light">
@@ -27,21 +28,21 @@ export default function Navbar() {
           <div className="flex-wrapper">
             <ul className="desktop-nav">
               <li>
-                <a href="#" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="nav-link">
+                <Link to="/about" className="nav-link">
                   About Me
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="nav-link">
+                <Link to="/contact" className="nav-link">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
 

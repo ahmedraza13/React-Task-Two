@@ -1,7 +1,6 @@
-export default function Button(props) {
-  return (
-    <a href="#" style={{ backgroundColor: "red" }} className="btn btn-primary">
-      {props.title}
-    </a>
-  );
+import * as React from 'react';
+import Button from '@mui/material/Button';
+
+export default function ButtonUsage() {
+  return <Button variant="contained">Hello world</Button>;
 }

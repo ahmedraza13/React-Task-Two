@@ -1,7 +1,13 @@
+import Button from "../../components/button/Button";
+
 const About = () => {
     return  (
-        <h1>These is About Page</h1>
+       <div>
+        <Button bg="red" title="About button">My text button</Button>
+       </div>
     )
 }
 
 export default About; 
+
+
