@@ -1,5 +1,5 @@
 import { blogsData, tags, cardContent } from "../../constant/blogs";
-import TopicItem from "../../topicItem/TopicItem";
+import TopicItem from "../topicItem/TopicItem";
 import BlogCard from "../blogCard/BlogCard";
 import SideCard from "../sideCard/SideCard";
 
